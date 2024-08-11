@@ -8,8 +8,9 @@
  
 #include <SPI.h>
 #include "U8g2lib.h" // include u8g2 library for drawing on the OLED display
+//demo code is using ESP8266
 
-U8G2_ST7567_JLX12864_F_4W_SW_SPI u8g2(U8G2_MIRROR, /* clock=*/ 18, /* data=*/ 23, /* cs=*/ 19, /* dc=*/ 5, /* reset=*/ 22);
+U8G2_ST7567_JLX12864_F_4W_SW_SPI u8g2(U8G2_MIRROR, /* clock=*/ 2, /* data=*/ 3, /* cs=*/ 4, /* dc=*/ 5, /* reset=*/ 6);
 
  int strela=-45;
   int hMeter = 64;                      
